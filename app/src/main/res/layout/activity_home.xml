@@ -37,6 +37,7 @@
         android:layout_height="wrap_content">
 
         <ImageButton
+            android:id="@+id/btn_truck"
             android:src="@drawable/icons8_truck_125px_3"
             android:background="@color/white"
             android:layout_width="150dp"
@@ -83,6 +84,7 @@
         android:layout_height="wrap_content">
 
         <ImageButton
+            android:id="@+id/btn_profil"
             android:background="@color/white"
             android:src="@drawable/icons8_male_user_125px_2"
             android:layout_width="150dp"
