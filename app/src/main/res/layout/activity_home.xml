@@ -92,6 +92,7 @@
             android:layout_marginTop="50dp" />
 
         <ImageButton
+            android:id="@+id/btn_transaksi"
             android:background="@color/white"
             android:src="@drawable/icons8_inscription_125px_3"
             android:layout_marginLeft="24dp"

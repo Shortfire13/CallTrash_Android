@@ -15,6 +15,7 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         ImageButton btn_truck = findViewById(R.id.btn_truck);
+        ImageButton btn_transaksi = findViewById(R.id.btn_transaksi);
         ImageButton btn_profile = findViewById(R.id.btn_profil);
 
         btn_truck.setOnClickListener(new View.OnClickListener() {
@@ -28,6 +29,12 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(HomeActivity.this, ProfileActivity.class));
+            }
+        });
+        btn_transaksi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(HomeActivity.this, DetailActivity.class));
             }
         });
     }
