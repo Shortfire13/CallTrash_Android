@@ -18,10 +18,8 @@ public class DetailActivity extends AppCompatActivity {
         btn_confirm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(DetailActivity.this, ProfileActivity.class));
+                startActivity(new Intent(DetailActivity.this, ConfirmActivity.class));
             }
         });
-
-        
     }
 }

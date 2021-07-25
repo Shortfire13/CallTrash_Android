@@ -6,26 +6,28 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".ConfirmActivity">
-    
+
     <ImageView
         android:layout_marginTop="100dp"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/icons8_double_tick_125px"
+        android:src="@drawable/icons8_double_tick_50px_1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
 
     <TextView
-        android:layout_gravity="center_horizontal"
-        android:text="Permintaan Diterima"
+        android:layout_marginTop="32dp"
+        android:text="Permintaan Anda Diterima"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        />
 
     <Button
         android:id="@+id/btn_back"
-        android:layout_marginTop="250dp"
         android:layout_marginLeft="32dp"
         android:layout_marginRight="32dp"
-        android:text="Kembali"
+        android:layout_marginTop="200dp"
+        android:text="kembali"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
